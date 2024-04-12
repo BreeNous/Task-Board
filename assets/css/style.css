@@ -14,3 +14,63 @@ body {
 .task-card:hover {
   cursor: grab;
 }
+
+.modal-body {
+  display: flex;
+  height: 200px;
+}
+
+
+.form-box {
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.body-content {
+  display: flex;
+  flex-wrap: wrap;
+  
+
+}
+
+.task-title {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+
+.due-date {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  width: 50%;
+  
+}
+
+.task-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.des-test-area {
+  display: flex;
+  width: 245%;
+}
+
+.close-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.close {
+  background-color: #198754;
+  color: white;
+  border-color: #198754;
+  border-radius: 0.25rem;
+  border-style: none;
+  display: inline-block;
+  width: 93.59px;
+  height: 38px;
+}

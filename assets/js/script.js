@@ -2,9 +2,26 @@
 let taskList = JSON.parse(localStorage.getItem("tasks"));
 let nextId = JSON.parse(localStorage.getItem("nextId"));
 
+const addTaskEl = $('#testButton');
+const formEl = $('#modal');
+const closeEl = $('#close');
+
+// function for showing modal when new task button is pressed
+formEl.hide();
+addTaskEl.on('click', function() {
+    formEl.show();
+});
+
+// function for hiding modal when submitted
+closeEl.on('click', function() {
+    formEl.hide();
+})
+// function for exiting modal when closed
+
+
 // Todo: create a function to generate a unique task id
 function generateTaskId() {
-
+    
 }
 
 // Todo: create a function to create a task card
@@ -19,6 +36,7 @@ function renderTaskList() {
 
 // Todo: create a function to handle adding a new task
 function handleAddTask(event){
+ 
 
 }
 
